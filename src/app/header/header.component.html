@@ -1,0 +1,21 @@
+<nav class="navbar">
+    <span class="navbar-toggle" id="js-navbar-toggle">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </span>
+    <img src="#" alt="my company logo">
+    <a href="#" class="title">MyPageTitle</a>
+    <ul class="main-nav" id="js-menu">
+        <li [ngClass]="{'hide-link': groupName === 'B'}">
+            <a href="#" class="nav-links">MyLink1</a>
+        </li>
+        <li>
+            <a href="#" class="nav-links">MyLink2</a>
+        </li>
+        <li  [ngClass]="{'hide-link': groupName === 'A'}">
+            <a href="#" class="nav-links">MyLink3</a>
+        </li>
+        <li [ngClass]="{'hide-link': groupName === 'A'}">
+            <a href="#" class="nav-links">MyLink4</a>
+        </li>
+    </ul>
+</nav>

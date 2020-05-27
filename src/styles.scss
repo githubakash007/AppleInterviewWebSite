@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./style/reset";
+@import "./style/variable";
+
+html, body {
+    font-family: $defaultFont;
+    font-weight: $normalWeight;
+    padding: 0.2rem;
+    background-color: white;
+    color: $fontColor;
+  }

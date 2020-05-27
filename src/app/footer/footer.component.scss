@@ -1,0 +1,17 @@
+ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding: 1em;
+}
+

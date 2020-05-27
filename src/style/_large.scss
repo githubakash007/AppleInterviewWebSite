@@ -1,0 +1,32 @@
+header {
+ background-color: $header-bg;
+  padding: 1rem 2%;
+  nav.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding-bottom: 0;
+    .navbar-toggle {
+      display: none;
+    }
+
+    .logo:hover,
+    .nav-links:hover {
+        color: rgba(255, 255, 255, 1);
+    }
+    .main-nav {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 30px;
+      flex-direction: row;
+    }
+    .nav-links {
+      margin-left: 40px;
+    }
+    ul li a{
+         text-decoration: none;
+    }
+  }
+}
+
